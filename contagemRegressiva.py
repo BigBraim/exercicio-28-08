@@ -9,7 +9,6 @@ print('')
 
 sleep(2)
 
-
 for n in range(10, 0, -1):
     print(n)
     sleep(0.5)
