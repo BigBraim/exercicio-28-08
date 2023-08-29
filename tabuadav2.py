@@ -9,10 +9,9 @@ print('')
 
 sleep(2)
 
-resp = 'S' and 's'
-continua = resp
+continua = 'S'
 
-while continua == resp:
+while continua == 'S':
 
     operacao = input("Digite / para dividir ou x para multiplicar (digite back para voltar): ")
     match operacao:
@@ -30,7 +29,7 @@ while continua == resp:
             except ValueError:
                 print("ERRO: Digite apenas números!")
 
-            continua = input('Quer continuar? [S/N] ')
+            continua = input('Quer continuar? [S/N] ').upper()
 
 
 
@@ -47,4 +46,4 @@ while continua == resp:
             except ValueError:
                 print("ERRO: Digite apenas números!")
 
-            continua = input('Quer continuar? [S/N] ')
+            continua = input('Quer continuar? [S/N] ').upper()
