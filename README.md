@@ -34,7 +34,6 @@
 ![image](https://github.com/BigBraim/exercicio-28-08/assets/79224234/8ede2c38-fd0a-4ac4-9b1f-faa655ea146e)
 
 ***
-***
 
 - MAIN
 
